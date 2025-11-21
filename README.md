@@ -5,9 +5,9 @@ This Python project calculates and visually represents the reflection of an arbi
 
 ## ✨ Features
 * **Calculation Module:** Accurately computes the reflected point $P'$ using the vector geometry formula derived from the point-plane relationship.
-* [cite_start]**Input/Output Structure:** Clear command-line prompts for receiving the point coordinates and plane coefficients[cite: 22].
-* [cite_start]**Error Handling:** Implements robust validation to check for non-numerical inputs and handles the case where the plane coefficients $a, b, c$ are all zero, which does not define a valid reflection plane[cite: 54, 41].
-* [cite_start]**3D Visualization Module:** Generates an interactive 3D plot [cite: 31] showing:
+* **Input/Output Structure:** Clear command-line prompts for receiving the point coordinates and plane coefficients[cite: 22].
+* **Error Handling:** Implements robust validation to check for non-numerical inputs and handles the case where the plane coefficients $a, b, c$ are all zero, which does not define a valid reflection plane[cite: 54, 41].
+* **3D Visualization Module:** Generates an interactive 3D plot [cite: 31] showing:
     * The **Original Point** (Blue)
     * The **Reflected Point** (Red)
     * The **Reflection Plane** (Green semi-transparent surface)
