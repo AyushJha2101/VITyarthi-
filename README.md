@@ -1,2 +1,30 @@
-# VITyarthi-
-This project is created for the VITyarthi portal
+# 📐 3D Point Reflection Across a Plane Visualizer
+
+## 📖 Overview
+This Python project calculates and visually represents the reflection of an arbitrary three-dimensional point, $P(x, y, z)$, across a general plane defined by the equation $ax + by + cz + d = 0$. [cite_start]The script takes the point coordinates and the plane coefficients as input, computes the reflected point $P'(x', y', z')$, and generates an interactive 3D plot to demonstrate the geometric relationship. [cite_start]The project aligns with concepts from Analytical Geometry and Visualization (Simulation or visualization)[cite: 31].
+
+## ✨ Features
+* **Calculation Module:** Accurately computes the reflected point $P'$ using the vector geometry formula derived from the point-plane relationship.
+* [cite_start]**Input/Output Structure:** Clear command-line prompts for receiving the point coordinates and plane coefficients[cite: 22].
+* [cite_start]**Error Handling:** Implements robust validation to check for non-numerical inputs and handles the case where the plane coefficients $a, b, c$ are all zero, which does not define a valid reflection plane[cite: 54, 41].
+* [cite_start]**3D Visualization Module:** Generates an interactive 3D plot [cite: 31] showing:
+    * The **Original Point** (Blue)
+    * The **Reflected Point** (Red)
+    * The **Reflection Plane** (Green semi-transparent surface)
+    * A dashed line connecting $P$ to $P'$.
+
+## 🛠️ Technologies/Tools Used
+* [cite_start]**Language:** Python 3.x 
+* **Libraries:**
+    * [cite_start]`numpy`: Used for efficient numerical operations and creating the mesh grid for the plane plot.
+    * [cite_start]`matplotlib`: Specifically `mpl_toolkits.mplot3d` for rendering the geometric visualization.
+
+## ⚙️ Steps to Install & Run the Project
+
+### 1. Prerequisites
+Ensure you have Python 3 installed on your system.
+
+### 2. Install Dependencies
+This project requires the `matplotlib` and `numpy` libraries. Install them using pip:
+```bash
+pip install matplotlib numpy
